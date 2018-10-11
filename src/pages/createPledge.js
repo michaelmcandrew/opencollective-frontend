@@ -97,7 +97,7 @@ class CreatePledgePage extends React.Component {
   state = {
     errorMessage: null,
     loadingUserLogin: true,
-    LoggedInUser: null,
+    LoggedInUser: undefined,
   };
 
   async componentDidMount() {

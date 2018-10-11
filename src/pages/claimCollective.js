@@ -33,7 +33,7 @@ class ClaimCollectivePage extends React.Component {
   state = {
     error: null,
     loadingUserLogin: true,
-    LoggedInUser: {},
+    LoggedInUser: undefined,
     repos: [],
   };
 
